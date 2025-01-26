@@ -1,0 +1,49 @@
+---
+import BaseHead, { type Props as HeadProps } from '../components/BaseHead.astro';
+
+export type Props = HeadProps
+
+const { ...head } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" >
+    <head>
+        <BaseHead {...head} />
+    </head>
+    <style>
+        main {
+            width: calc(100% - 2em);
+            max-width: 820px;
+            margin: auto;
+            padding-inline: 1em;
+        }
+        header,footer {
+            width: calc(100% - 2em);
+            max-width: 820px;
+            margin: auto;
+            padding-top: 1em;
+	    }   
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-family: "Newsreader Variable", serif;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <body>
+        <header>
+            <nav>
+                <a href="/"> Home</a>
+            </nav>
+        </header>
+        <main>
+            <slot />
+        </main>
+        <footer >
+            <p>© {new Date().getFullYear()} Solidifying Javascript Foundations - <a href="github.com">Source Code</a></p>
+        </footer>
+    </body>
+</html>

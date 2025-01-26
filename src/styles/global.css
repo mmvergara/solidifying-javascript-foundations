@@ -1,0 +1,47 @@
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/newsreader";
+@import "@fontsource-variable/newsreader/wght-italic.css";
+
+body {
+  font-family: "Inter Variable", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.8;
+  background-color: #161616;
+  color: #d8d6d3;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1.2em;
+  }
+}
+
+.astro-code {
+  font-family: "Courier New", monospace;
+  font-size: 1em;
+  line-height: 1.5;
+  background-color: #1a1a1a;
+  color: #d8d6d3;
+  padding: 1em;
+  border-radius: 0.2em;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+}
+
+code {
+  background: #242424;
+  padding: 0.2em;
+  border-radius: 0.5em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.596);
+}
+
+a {
+  color: #f8f8f2;
+}

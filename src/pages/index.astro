@@ -1,0 +1,59 @@
+---
+import { getCollection } from 'astro:content';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import MainLayout from '../layouts/MainLayout.astro';
+
+const blogs = (await getCollection('blog'))
+console.log(blogs)
+---
+
+<MainLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+	<style>
+		h1 {
+			font-family: "Newsreader Variable", serif;
+			margin: 0;
+			margin-top: 1em;
+			line-height: 1;
+		}
+		p {
+			margin: 0;
+			margin-bottom: 2em;
+			margin-top: 0.5em;
+			font-family: "Inter Variable", serif;
+			line-height: 1;
+		}
+		.blog-link-container {
+			display: flex;
+			flex-direction: column;
+		}
+		.blog-link {
+			font-family: "Inter Variable", sans-serif;
+			text-decoration: none;
+			color: white;
+			width: fit;
+			line-height:1.4;
+
+		}
+		.blog-link:hover {
+			text-decoration: underline;
+		}
+	</style>
+
+			<h1>Solidiying 
+				<span style="color:#ead41c;">
+					Javascript
+				</span>
+				Foundations</h1>
+			<p>
+       {SITE_DESCRIPTION}
+			</p>
+			{
+        blogs?.length > 0 && (
+            <div class="blog-link-container">
+                {blogs.map((post) => (
+                    <a class="blog-link" href={`/blog/${post.id}/`}>{post.data.title}</a>
+                ))}
+            </div>
+        )
+    }
+</MainLayout>	
