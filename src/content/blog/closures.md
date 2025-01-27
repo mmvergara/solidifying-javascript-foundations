@@ -4,9 +4,9 @@ description: Closures can feel like a complex topic, but they’re actually quit
 pubDate: "Jun 26 2025"
 ---
 
-Closures can feel like a complex topic, but they’re actually quite straightforward once you get the hang of them. Imagine closures as a backpack that a function carries with it, containing all the variables it had access to when it was created. Let's unpack this concept with a simple example.
+Closures can feel like a complex topic, but they’re actually quite straightforward once you get the hang of them. Imagine closures as a backpack that a function carries with it, containing all the variables it had access to when it was created. "When it was created" is a key phrase here.
 
-#### The Backpack in Action
+#### The Backpack
 
 Here’s some code:
 
