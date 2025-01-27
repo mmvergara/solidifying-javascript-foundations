@@ -8,7 +8,9 @@ import vercel from "@astrojs/vercel";
 // https://astro.build/config
 export default defineConfig({
   site: "https://solidifying-javascript-foundations.vercel.app",
-
+  prefetch: {
+    defaultStrategy: "load",
+  },
   integrations: [
     mdx(),
     sitemap(),
