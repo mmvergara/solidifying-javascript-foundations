@@ -4,7 +4,7 @@ description: If you’ve been working with JavaScript for a while, you’ve prob
 pubDate: "Jun 26 2025"
 ---
 
-If you’ve been working with JavaScript for a while, you’ve probably noticed that primitive values like strings, numbers, and booleans can sometimes behave like objects. For example, you can call methods like `.toUpperCase()` on a string or `.toFixed()` on a number. But wait—aren’t primitives supposed to be, well, primitive? Enter **autoboxing**, a behind-the-scenes magic trick that JavaScript performs to make this possible.
+If you’ve been working with JavaScript for a while, you’ve probably noticed that primitive values like strings, numbers, and booleans can sometimes behave like objects. For example, you can call methods like `.toUpperCase()` on a string or `.toFixed()` on a number. But wait—aren’t primitives supposed to be, well, primitive?
 
 ---
 
@@ -29,7 +29,7 @@ Once the operation is complete, the temporary object is discarded. so you could 
 
 ---
 
-### Autoboxing in Action
+### Example
 
 Let’s say you have a string primitive and you want to use a method like `.toUpperCase()`:
 
