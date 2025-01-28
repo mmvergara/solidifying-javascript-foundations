@@ -4,11 +4,11 @@ description: The strict equality operator (===) compares two values for equality
 pubDate: "Jun 26 2025"
 ---
 
-The behavior of the strict equality operator (`===`) is defined in the **ECMAScript specification** under the section [**Strict Equality Comparison**](https://tc39.es/ecma262/#sec-strict-equality-comparison). Here’s a breakdown of how it works, step by step:
+The behavior of the strict equality operator (`===`) is defined in the **ECMAScript specification** under the section [**Strict Equality Comparison**](https://tc39.es/ecma262/#sec-strict-equality-comparison). If you wan't to understand how `===` works i suggest you first understand how the [**Abstract Equality Comparison**](https://tc39.es/ecma262/#sec-abstract-equality-comparison) works first. It's actually just a `==` but without type coercion.
 
 ### The Algorithm for `===`
 
-When you use `===`, JavaScript follows this algorithm to determine if two values are equal:
+When you use `===`, JavaScript follows this algorithm to determine if two values are equal.
 
 1. **Check if the types are the same:**
 
