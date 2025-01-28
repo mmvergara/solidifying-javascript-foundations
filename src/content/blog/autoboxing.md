@@ -4,7 +4,7 @@ description: If you’ve been working with JavaScript for a while, you’ve prob
 pubDate: "Jun 26 2025"
 ---
 
-If you’ve been working with JavaScript for a while, you’ve probably noticed that primitive values like strings, numbers, and booleans can sometimes behave like objects. For example, you can call methods like `.toUpperCase()` on a string or `.toFixed()` on a number. But wait—aren’t primitives supposed to be, well, primitive?
+If you’ve been working with JavaScript for a while, you’ve probably noticed that primitive values like strings, numbers, and booleans can sometimes behave like objects. For example, you can call methods like `.toUpperCase()` on a string or `.toFixed()` on a number. But wait aren’t primitives supposed to be, well, primitive?
 
 ---
 
@@ -13,7 +13,7 @@ If you’ve been working with JavaScript for a while, you’ve probably noticed 
 Autoboxing is the process where JavaScript **temporarily wraps a primitive value in an object** so you can access properties or methods that belong to its corresponding object type. Once the operation is done, the object is discarded, and you’re back to working with the primitive.
 
 Think of it like this:  
-Primitives are like plain, everyday tools—simple and lightweight. But sometimes, you need a power tool to get the job done. Autoboxing is like renting that power tool for a quick task and then returning it when you’re done.
+Primitives are like plain, everyday tools simple and lightweight. But sometimes, you need a power tool to get the job done. Autoboxing is like renting that power tool for a quick task and then returning it when you’re done.
 
 ---
 
