@@ -4,7 +4,7 @@ description: If you’ve ever wondered why `==` behaves the way it does in JavaS
 pubDate: "Jan 28 2025"
 ---
 
-If you’ve ever wondered why `==` behaves the way it does in JavaScript, you’re not alone. The `==` operator, also known as the **loose equality operator**, has a secret: it prefers numeric comparisons. This might sound odd at first, but once you understand how it works, you’ll see why this behavior exists and how to use it effectively.
+If you’ve ever wondered why `==` behaves the way it does in JavaScript, you’re not alone. The `==` operator, also known as the **loose equality operator**, has a secret, it prefers numeric comparisons. This might sound odd at first, but once you understand how it works, you’ll see why this behavior exists and how to use it effectively.
 
 ### The Numeric Preference
 
