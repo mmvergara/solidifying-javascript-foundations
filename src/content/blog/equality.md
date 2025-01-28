@@ -1,6 +1,6 @@
 ---
 title: Equality (==)
-description: The `==` operator in JavaScript has a hidden preference: it loves numbers. Let’s break down how it works and why understanding this can make you a better developer.
+description: If you’ve ever wondered why `==` behaves the way it does in JavaScript, you’re not alone. The `==` operator, also known as the **loose equality operator**, has a secret, it prefers numeric comparisons. This might sound odd at first, but once you understand how it works, you’ll see why this behavior exists and how to use it effectively.
 pubDate: "Jan 28 2025"
 ---
 
