@@ -47,7 +47,7 @@ When you use `===`, JavaScript follows this algorithm to determine if two values
 
 ### Why `NaN === NaN` is `false`
 
-This is a common point of confusion. According to the spec, `NaN` (Not-a-Number) is defined as not equal to itself. This is because `NaN` represents an **invalid or undefined numeric result**, and it doesn’t make sense to compare two invalid results as equal.
+This is a common point of confusion. According to the spec, `NaN` (Not-a-Number) is defined as not equal to itself. This is because `NaN` represents an **invalid or undefined numeric result**, and it doesn't make sense to compare two invalid results as equal.
 
 For example:
 
