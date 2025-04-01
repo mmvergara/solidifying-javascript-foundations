@@ -90,3 +90,5 @@ But if two variables point to the same object, they are equal:
 const obj3 = obj1;
 obj1 === obj3; // true (same object)
 ```
+
+This is just my personal opinion but i think this is one way we can measure a developer's understanding of JavaScript by how well they predict the output of comparisons using `===` and `==` in different scenarios.

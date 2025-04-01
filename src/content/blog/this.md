@@ -4,6 +4,8 @@ description: The value of `this` is determined by how a function is called, not 
 pubDate: "Feb 01 2025"
 ---
 
+This is it, the infamous `this` keyword in JavaScript.
+
 The value of `this` is determined by how a function is called, not where it's defined. This is what the ECMAScript spec calls "runtime binding." Think of it like a game of hot potato whoever's holding the potato (calling the function) determines what `this` becomes.
 
 Here's a tricky example that often confuses us developers.

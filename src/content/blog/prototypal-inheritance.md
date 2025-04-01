@@ -4,8 +4,6 @@ description: Prototypal inheritance is one of JavaScript's core concepts, but it
 pubDate: "Feb 03 2025"
 ---
 
-Prototypal inheritance is one of JavaScript's core concepts, It is essential to understand how it works.
-
 ### The Family Tree
 
 In JavaScript, every object has a hidden `[[Prototype]]` property that links it to another object. This is like a child inheriting traits from a parent. When you try to access a property or method on an object, JavaScript will look for it on the object itself. If it doesn’t find it it will check the object’s prototype, and so on, up the chain.
@@ -134,4 +132,4 @@ console.log(car2.getName()); // Ford
 
 ---
 
-Prototypal inheritance is a core concept in JavaScript that helps you write efficient and maintainable code. By sharing methods via the prototype chain (or using `class`), you avoid duplication and keep your code clean. Whether you use constructor functions, `Object.create`, or `class`, the goal is the same: **share behavior, not memory**.
+At first i didn't care but i think that Prototypal inheritance is something a Javascript developer should understand, it's a foundational concept that underpins many advanced JavaScript patterns.
